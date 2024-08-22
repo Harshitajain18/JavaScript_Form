@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    text-align: center;
+    align-items: center;
+}
+.all{
+    font-size:larger;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+#fname,#lname,#mail,#phone,#contact{
+    align-items: center;
+    display: flex;
+    height: 30px;
+    width: 500px;
+}
+#comment{
+    height: 90px;
+    width: 500px;
+}
+#btn{
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    color: black;
+    background-color: white;
+}
